@@ -1,4 +1,4 @@
-# ui_practice
+# balance_app
 
 | Name          | Career Path |                         e-mail |
 | ------------- | :---------: | -----------------------------: |
