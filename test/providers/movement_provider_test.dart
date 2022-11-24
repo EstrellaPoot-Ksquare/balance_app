@@ -60,9 +60,9 @@ void main() {
       test("Add and Delete Both New Income and Expense", () {
         movementProvider.setMovementType('income');
         movementProvider.addMovement("Salary", '1000', 'My salary');
+        movementProvider.removeMovement(movementProvider.movements[0].id);
         movementProvider.setMovementType('expense');
         movementProvider.addMovement("Movie Ticket", '100', 'Movie Ticket');
-        movementProvider.removeMovement(movementProvider.movements[0].id);
         movementProvider.removeMovement(movementProvider.movements[0].id);
         expect(movementProvider.movements.length, 0);
         expect(movementProvider.getBalance(), 0);

@@ -1,16 +1,33 @@
-# balance_app
+# ui_practice
 
-A new Flutter project.
+| Name          | Career Path |                         e-mail |
+| ------------- | :---------: | -----------------------------: |
+| Estrella Poot |   Flutter   | Estrella.Poot@itksquare.edu.mx |
 
-## Getting Started
+# Unit tests
 
-This project is a starting point for a Flutter application.
+```bash
+flutter test .\test\providers\movement_provider_test.dart
+```
 
-A few resources to get you started if this is your first Flutter project:
+# Integration test
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter test .\integration_test\full_app_test.dart
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1) Balance Screen
+
+![BalanceScreen](./screenshots/balance_screen.PNG)
+
+### 2) Create Screen
+
+![BalanceScreen](./screenshots/create_screen.PNG)
+
+### 3) Balance Screen with movements
+
+![BalanceScreen with movements](./screenshots/movements.PNG)
+
+### 4) Delete screen
+
+![DeleteScreen](./screenshots/delete_screen.PNG)
